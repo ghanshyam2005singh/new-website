@@ -21,6 +21,8 @@ const teamData: TeamType[] = [
     linkedinLink: "https://www.linkedin.com/in/rishi-mondal-5238b2282/",
     githubLink: "https://github.com/MAVRICK-1",
   },
+  /*
+  // Uncomment this section if you want to add Vedant Anand back to the team
   {
     id: 3,
     name: "Vedant Anand",
@@ -29,14 +31,16 @@ const teamData: TeamType[] = [
     linkedinLink: "https://www.linkedin.com/in/vedantanand17",
     githubLink: "https://github.com/vedantanand17",
   },
+  */
   {
     id: 4,
     name: "Ghanshyam Singh",
-    designation: "Community Manager",
+    designation: "Manager",
     image: "/images/team/Ghanshyam_Singh.jpg",
     linkedinLink: "https://www.linkedin.com/in/ghanshyam-singh-b014232b2/",
     githubLink: "https://github.com/ghanshyam2005singh",
   },
+  /*
   {
     id: 5,
     name: "Anjali Gautam",
@@ -61,6 +65,7 @@ const teamData: TeamType[] = [
     linkedinLink: "https://www.linkedin.com/in/divyam-sharma-6ba700249/",
     githubLink: "https://github.com/Divyamsharma-18",
   },
+  */
   {
     id: 8,
     name: "Ramakrushna Biswal",
@@ -92,7 +97,8 @@ const teamData: TeamType[] = [
     image: "/images/team/Sayan_Rakshit.jpg",
     linkedinLink: "https://www.linkedin.com/in/sayandotcom/",
     githubLink: "https://github.com/devsayanR",
-  },
+  }, 
+  /*
   {
     id: 12,
     name: "Piyush Prasad",
@@ -148,7 +154,7 @@ const teamData: TeamType[] = [
     image: "/images/team/yashika.jpg",
     linkedinLink: "https://www.linkedin.com/in/yashika-722899321",
     githubLink: "https://github.com/Yashika-sherawat",
-  },
+  },*/
   {
     id: 19,
     name: "Sneha Shrivastav",
@@ -157,6 +163,7 @@ const teamData: TeamType[] = [
     linkedinLink: "https://www.linkedin.com/in/sneha-kumari1/",
     githubLink: "https://github.com/Snehsk",
   },
+  /*
   {
     id: 20,
     name: "Sanchit Sehgal",
@@ -213,6 +220,7 @@ const teamData: TeamType[] = [
     linkedinLink: "https://www.linkedin.com/in/sanskriti-s/",
     githubLink: "https://github.com/sanskriti2005",
   },
+  */
 ];
 
 const Team = ({ showAll }: { showAll: boolean }) => {
